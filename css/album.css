@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+body
+{
+    font-family: 'Passion One';
+}
+
+#space
+{
+    height: auto;
+    width: auto;
+    background-color: #000000;
+}
+
+
+#headers 
+{
+    height: auto;
+    width: auto;
+    
+    background-color:#000000;
+    text-align: center;
+    
+}
+
+
+
+#nav 
+{
+    height: auto;
+    width: auto;
+    
+    background-color: #5AB23D;
+}
+
+.z-depth-1,nav,.card-panel,.card,.toast,.btn,.btn-large,.btn-small,.btn-floating,.dropdown-content,.collapsible,.sidenav{
+	
+}
+
+svg
+{
+    display: block;
+}
+
+path
+{
+    display: inline;
+}
+
+.row .col.s2{
+	width: 11.6666666667%;
+	margin-left:auto;
+	left:auto;
+	right:auto;
+}
+.row .col.s3{
+	width:16%;
+	margin-left:auto;
+	left:auto;
+	right:auto
+}
+
+.row .col.s4{
+	width:16.3333333333%;
+	margin-left:auto;
+	left:auto;
+	right:auto
+}
+
+ul
+{
+    padding: 0;
+}
+
+img
+{
+    position: relative; 
+    width: 40.5px; 
+     height: 60px;
+    top: 05px; 
+    text-align: center;
+}
+
+.box
+{
+        padding-top: 5em;
+        margin:0 auto;
+        max-width:1280px;
+        width:95%
+}
+
+.box img
+{
+    height: auto;
+    width: auto;
+}
+
+#box
+{
+    height: auto;
+    width: auto;
+    background-color: #7B328A;
+    /* text-align: center; */
+}
+
+.row
+{
+    margin: 0;
+}
+
+
+
+h1
+{
+	color: black;
+	
+    font-size: 60PX;
+    margin: auto;
+	
+}
+
+h2
+{
+	color: white;
+    font-size: 25PX;
+    margin-top: 0px;
+}
+
+h3
+{
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h5
+{
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+ 
+  
+
+

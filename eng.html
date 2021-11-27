@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css/album.css" />
+    <title>BTS | Albums</title>
+</head>
+<body bgcolor="#5AB23D">
+
+    <div id="headers" style="display: inline;">
+        <div class="row" style="background-color: #000000;">
+            <div class="col s1 push-s4">
+                <a href="member.html"><h5 style=" color:#7B328A;  ">Members</h5></a>
+            </div>
+            <div class="col s1 push-s4">
+                <a href="home.html" style="padding-left: 7em;"><img src="img/BTS1.png"></a>
+            </div>
+            <div class="col s1 push-s5">
+                <a href="school.html"><h5 style=" color:#7B328A; padding-left: 1em;">Albums</h5></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <nav>
+        <div class="nav-wrapper" style="padding-top: 1em;">
+          
+          <a href="#" data-target="menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class=" hide-on-med-and-down">
+            <li><a href="school.html" active><h2>SCHOOL ERA</h2></a></li>
+            <li><a href="youth.html"><h2>YOUTH ERA</h2></a></li>
+            <li><a href="wings.html"><h2>WINGS ERA</h2></a></li>
+            <li><a href="ly.html"><h2>LOVE YOURSELF ERA</h2></a></li>
+            <li><a href="mots.html"><h2>MOTS ERA</h2></a></li>
+            <li><a href="be.html"><h2>B.E. ERA</h2></a></li>
+            <li  class="active"><a href="eng.html"><h2>ENGLISH ERA</h2></a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+    
+      <ul class="sidenav" id="menu">
+        <li><a href="school.html"><h2>SCHOOL ERA</h2></a></li>
+        <li><a href="youth.html"><h2>YOUTH ERA</h2></a></li>
+        <li><a href="wings.html"><h2>WINGS ERA</h2></a></li>
+        <li><a href="ly.html"><h2>LOVE YOURSELF ERA</h2></a></li>
+        <li><a href="mots.html"><h2>MOTS ERA</h2></a></li>
+        <li><a href="be.html"><h2>B.E. ERA</h2></a></li>
+        <li><a href="eng.html"><h2>ENGLISH ERA</h2></a></li>
+      </ul>
+
+        
+      
+      <audio id="dyn">
+        <source src="alb/dyn.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="butt">
+        <source src="alb/butt.m4a" type="audio/mpeg">
+      </audio>
+      <audio id="ptd">
+        <source src="alb/ptd.m4a" type="audio/mpeg">
+      </audio>
+        
+            
+      
+    
+    <div id="box">
+        <div class="box">
+            <div class="row">
+                <div class="col s12 m3 l4 ">
+                    <div class="card green darken-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="alb/dyn.jpg" class="activator" onclick="playdynAudio('dyn')">
+                        </div>
+                        
+                        <div class="card-reveal " style="opacity: 65%;">
+                            <span class="card-title grey-text text-darken-4">DYNAMITE (2020)<i class="right material-icons" onclick="pausedynAudio('dyn')">close</i></span>
+                            <p style="font-size: 20px;">“Dynamite” is a Disco Pop single that sings of joy and confidence, 
+                                bringing a new surge of much-needed ‘energy’ to reinvigorate the global community.
+                                <br><br>
+                                In this song, the global superstars find happiness by doing again what they do best: 
+                                engaging in a perpetual cycle of giving and receiving joy with the world through music 
+                                and performances.
+                                <br><br>
+                                It also marks BTS’ first song to be released completely in English; having sought a 
+                                “breakthrough” to overcome a sense of disheartenment from within the new global climate, 
+                                BTS embarks on a new challenge through “Dynamite.”
+                                <br><br>
+                                The choreography is edgy and upbeat, with deeply addicting movements that highlight 
+                                the distinct charms of each BTS member.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 push-m1 l4">
+                    <div class="card green darken-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="alb/butt.png" class="activator" onclick="playbuttAudio('butt')">
+                        </div>
+                        <div class="card-reveal " style="opacity: 65%;">
+                            <span class="card-title grey-text text-darken-4">BUTTER (2021)<i class="right material-icons " onclick="pausebuttAudio('butt')">close</i></span>
+                            <p style="font-size: 20px;">BTS’ latest summer anthem “Butter” is a dance pop track that easily 
+                                becomes listeners’ favorite earworm, with its distinctive baseline and crisp synth sounds. 
+                                It is their second English song following “Dynamite”.
+                                <br><br>
+                                “Butter” puts forth BTS’ unique charm that no one else can pull off. 
+                                Sometimes smooth, at times charismatic, 
+                                the duality of BTS, that they claim to “owe it all to my mother,” 
+                                will melt listeners' hearts. 
+                                The fun and witty lyrics brimming with positive and bright energy will instantly uplift moods.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3 push-m2 l4">
+                    <div class="card green darken-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="alb/ptd.png" class="activator" onclick="playptdAudio('ptd')">
+                        </div>
+                        <div class="card-reveal " style="opacity: 65%;">
+                            <span class="card-title grey-text text-darken-4">PERMISSION TO DANCE (2021)<i class="right material-icons" onclick="pauseptdAudio('ptd')">close</i></span>
+                            <p style="font-size: 20px;">A brassy, euphoric piece of ear candy, 
+                                Permission to Dance is the third English-language single from the group, 
+                                and is co-written by Ed Sheeran
+                                <br><br>
+                                A music video accompanying the single evokes a future where we can all throw off our masks and dance
+                                <br><br>
+                                The boppy and catchy song released after their song "Butter" provides encouragement to its viewers 
+                                as well as inviting everyone to dance by having a dance mob at the end incorporating the sign language of 
+                                the word 'dance'.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#7B328A" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,234.7C960,235,1200,213,1320,202.7L1440,
+        192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+    </svg>
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+
+      <script>
+          $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true, indicators: true, numVisible: 3, duration: 100
+
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
+    </script>   
+
+<script>
+    var dyn = document.getElementById("dyn"); 
+    
+    function playdynAudio() { 
+        dyn.play(); 
+        dyn.volume=0.1
+    } 
+    
+    function pausedynAudio() { 
+        dyn.pause(); 
+    } 
+  </script>
+  <script>
+    var butt = document.getElementById("butt"); 
+    
+    function playbuttAudio() { 
+        butt.play(); 
+        butt.volume=0.1
+    } 
+    
+    function pausebuttAudio() { 
+        butt.pause(); 
+    } 
+  </script>
+  <script>
+    var ptd = document.getElementById("ptd"); 
+    
+    function playptdAudio() { 
+        ptd.play();
+        ptd.volume=0.1 
+    } 
+    
+    function pauseptdAudio() { 
+        ptd.pause(); 
+    } 
+  </script>
+    
+</body>
+</html>

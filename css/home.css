@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+body
+{
+    font-family: 'Passion One';
+}
+
+#space
+{
+    height: auto;
+    width: auto;
+    background-color: #000000;
+}
+
+
+
+
+#headers 
+{
+    height: auto;
+    width: auto;
+    
+    background-color: #7B328A;
+    text-align: center;
+    
+}
+
+#about 
+{
+    height: auto;
+    width: auto;
+    
+    background-color: #38243b;
+
+    
+}
+
+
+
+img
+{
+    position: relative;
+    width: 50.5px;
+    height: 77px;
+    
+    top: 25px;
+    text-align: center;
+}
+
+path
+{
+    display: inline-block;
+    height: 100px;
+}
+
+svg
+{
+    display: block;
+}
+
+video
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.box
+{
+        
+        margin:0 auto;
+        max-width:1280px;
+        width:95%
+}
+
+
+#box
+{
+    height: auto;
+    width: auto;
+    background-color: #000000;
+    text-align: center;
+}
+
+.col.s12.m12.l4.push-l7 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#members 
+{
+    height: auto;
+    width: auto;
+    
+    background-color: #38243b;
+}
+
+.col.s8.m8.l3 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.col.s10.push-s1.m10.push-m1.l5.pull-l1
+{
+    margin-top: 9em;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 10px;
+    border-color: green;
+    border-style: solid;
+}
+
+.col.s8.push-s2.m8.push-m2.l3.push-l1 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.col.s10.push-s1.m11.push-m1.l5.push-l2
+{
+    margin-top: 9em;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 10px;
+    border-color: green;
+    border-style: solid;
+}
+
+.row
+{
+    margin-bottom: 0px;
+}
+
+h1
+{
+	color: black;
+	
+    font-size: 60PX;
+    margin: auto;
+	
+}
+
+h2
+{
+	color: black;
+    font-size: 25PX;
+    
+}
+
+h3
+{
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h5
+{
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+ 
+  
+
+
