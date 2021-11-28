@@ -10,10 +10,14 @@
     <title>BTS | Home</title>
 </head>
 <body bgcolor="#7B328A">
-    <audio autoplay="true" src="img/vid.mp3"></audio>
+    <audio id="bts">
+        <source src="img/bts.mp3" type="audio/mpeg">
+      </audio>
+
+    <audio autoplay="true" src="img/bts.mp3"></audio>
     <div id="headers">
         <a href="nj.html"><h5 style="display: inline; color:#5AB23D; ">Members</h5></a>
-        <a href="#box"><img src="img/BTS.png"></a>
+        <a href="#box" onclick="playbtsAudio('bts')"><img src="img/BTS.png"></a>
         <a href="school.html"><h5 style="display: inline; color:#5AB23D;">Albums</h5></a>
         
     </div>
@@ -279,5 +283,15 @@
 
         
     </script>   
+
+<script>
+    var bts = document.getElementById("bts"); 
+    
+    function playbtsAudio() { 
+      bts.play(); 
+      bts.volume=0.5
+    } 
+    
+  </script>
 </body>
 </html>
