@@ -57,8 +57,8 @@
       </ul>
 
         
-      <audio id="nmd">
-        <source src="alb/nd.mp3" type="audio/mpeg">
+      <audio id="jh">
+        <source src="img/jh.mp3" type="audio/mpeg">
       </audio>
       
         
@@ -72,10 +72,10 @@
                 <div id="jh" class="col s10 push-s1 m6 push-m3 l4  ">
                     <div class="card" >
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/jh.jpg" class="activator">
+                            <img src="img/jh.jpg" class="activator" onclick="playjhAudio('jh')">
                         </div>
                         <div class="card-reveal hide-on-med-and-up " style="opacity: 65%;">
-                            <span class="card-title grey-text text-darken-4">J-HOPE<i class="right material-icons">close</i></span>
+                            <span class="card-title grey-text text-darken-4">J-HOPE<i class="right material-icons" onclick="pausejhAudio('jh')">close</i></span>
                             <p style="font-size: 20px;" class="black-text">
                                 Role: Main Dancer, Sub Rapper, Sub Vocalist, Producer, Songwriter, Sunshine
                                 <br>Name: Jung Hoseok (정호석)
@@ -184,54 +184,18 @@
         
     </script>   
 
-    <script>
-      var nmd = document.getElementById("nmd"); 
-      
-      function playnmdAudio() { 
-        nmd.play(); 
-        nmd.volume=0.2
-      } 
-      
-      function pausenmdAudio() { 
-        nmd.pause(); 
-      } 
-    </script>
-    <script>
-      var oru = document.getElementById("oru"); 
-      
-      function playoruAudio() { 
-        oru.play(); 
-        oru.volume=0.2
-      } 
-      
-      function pauseoruAudio() { 
-        oru.pause(); 
-      } 
-    </script>
-    <script>
-      var ska = document.getElementById("ska"); 
-      
-      function playskaAudio() { 
-        ska.play(); 
-        ska.volume=0.2
-      } 
-      
-      function pauseskaAudio() { 
-        ska.pause(); 
-      } 
-    </script>
-    <script>
-      var dnw = document.getElementById("dnw"); 
-      
-      function playdnwAudio() { 
-        dnw.play(); 
-        dnw.volume=0.2
-      } 
-      
-      function pausednwAudio() { 
-        dnw.pause(); 
-      } 
-    </script>
+<script>
+    var jh = document.getElementById("jh"); 
+    
+    function playjhAudio() { 
+      jh.play(); 
+      jh.volume=0.5
+    } 
+    
+    function pausejhAudio() { 
+      jh.pause(); 
+    } 
+  </script>
     
 </body>
 </html>

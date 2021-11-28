@@ -57,8 +57,8 @@
       </ul>
 
         
-      <audio id="nmd">
-        <source src="alb/nd.mp3" type="audio/mpeg">
+      <audio id="v">
+        <source src="img/v.mp3" type="audio/mpeg">
       </audio>
       
         
@@ -72,10 +72,10 @@
                 <div id="v" class="col s10 push-s1 m6 push-m3 l4  ">
                     <div class="card" >
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/v.jpg" class="activator">
+                            <img src="img/v.jpg" class="activator" onclick="playvAudio('v')"> 
                         </div>
                         <div class="card-reveal hide-on-med-and-up " style="opacity: 65%;">
-                            <span class="card-title grey-text text-darken-4">V<i class="right material-icons">close</i></span>
+                            <span class="card-title grey-text text-darken-4">V<i class="right material-icons" onclick="pausevAudio('v')">close</i></span>
                             <p style="font-size: 20px;" class="black-text">
                                 Role: Lead Dancer, Sub Vocalist, Visual
                                 <br>Name: Kim Taehyung (김태형)
@@ -194,54 +194,18 @@
         
     </script>   
 
-    <script>
-      var nmd = document.getElementById("nmd"); 
-      
-      function playnmdAudio() { 
-        nmd.play(); 
-        nmd.volume=0.2
-      } 
-      
-      function pausenmdAudio() { 
-        nmd.pause(); 
-      } 
-    </script>
-    <script>
-      var oru = document.getElementById("oru"); 
-      
-      function playoruAudio() { 
-        oru.play(); 
-        oru.volume=0.2
-      } 
-      
-      function pauseoruAudio() { 
-        oru.pause(); 
-      } 
-    </script>
-    <script>
-      var ska = document.getElementById("ska"); 
-      
-      function playskaAudio() { 
-        ska.play(); 
-        ska.volume=0.2
-      } 
-      
-      function pauseskaAudio() { 
-        ska.pause(); 
-      } 
-    </script>
-    <script>
-      var dnw = document.getElementById("dnw"); 
-      
-      function playdnwAudio() { 
-        dnw.play(); 
-        dnw.volume=0.2
-      } 
-      
-      function pausednwAudio() { 
-        dnw.pause(); 
-      } 
-    </script>
+<script>
+    var v = document.getElementById("v"); 
+    
+    function playvAudio() { 
+      v.play(); 
+      v.volume=0.5
+    } 
+    
+    function pausevAudio() { 
+      v.pause(); 
+    } 
+  </script>
     
 </body>
 </html>

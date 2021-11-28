@@ -57,8 +57,8 @@
       </ul>
 
         
-      <audio id="nmd">
-        <source src="alb/nd.mp3" type="audio/mpeg">
+      <audio id="jk">
+        <source src="img/jk.mp3" type="audio/mpeg">
       </audio>
       
         
@@ -72,10 +72,10 @@
                 <div id="jk" class="col s10 push-s1 m6 push-m3 l4  ">
                     <div class="card" >
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img src="img/jk.jpg" class="activator">
+                            <img src="img/jk.jpg" class="activator" onclick="playjkAudio('jk')">
                         </div>
                         <div class="card-reveal hide-on-med-and-up " style="opacity: 65%;">
-                            <span class="card-title grey-text text-darken-4">JUNGKOOK<i class="right material-icons">close</i></span>
+                            <span class="card-title grey-text text-darken-4">JUNGKOOK<i class="right material-icons" onclick="pausejkAudio('jk')">close</i></span>
                             <P style="font-size: 20px;" class="black-text">
                                 Role: Main Vocalist, Lead Dancer, Sub Rapper, Center, Maknae
                                 <br>Name: Jeon Jungkook (전정국)
@@ -193,54 +193,18 @@
         
     </script>   
 
-    <script>
-      var nmd = document.getElementById("nmd"); 
-      
-      function playnmdAudio() { 
-        nmd.play(); 
-        nmd.volume=0.2
-      } 
-      
-      function pausenmdAudio() { 
-        nmd.pause(); 
-      } 
-    </script>
-    <script>
-      var oru = document.getElementById("oru"); 
-      
-      function playoruAudio() { 
-        oru.play(); 
-        oru.volume=0.2
-      } 
-      
-      function pauseoruAudio() { 
-        oru.pause(); 
-      } 
-    </script>
-    <script>
-      var ska = document.getElementById("ska"); 
-      
-      function playskaAudio() { 
-        ska.play(); 
-        ska.volume=0.2
-      } 
-      
-      function pauseskaAudio() { 
-        ska.pause(); 
-      } 
-    </script>
-    <script>
-      var dnw = document.getElementById("dnw"); 
-      
-      function playdnwAudio() { 
-        dnw.play(); 
-        dnw.volume=0.2
-      } 
-      
-      function pausednwAudio() { 
-        dnw.pause(); 
-      } 
-    </script>
+<script>
+  var jk = document.getElementById("jk"); 
+  
+  function playjkAudio() { 
+    jk.play(); 
+    jk.volume=0.5
+  } 
+  
+  function pausejkAudio() { 
+    jk.pause(); 
+  } 
+</script>
     
 </body>
 </html>
